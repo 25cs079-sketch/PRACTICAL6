@@ -1,0 +1,86 @@
+[
+    {
+        "id": "25CS001",
+        "name": "Rahul Patel",
+        "course": "CSE",
+        "semester": 3,
+        "cgpa": 8.2
+    },
+    {
+        "id": "25CS002",
+        "name": "Priya Shah",
+        "course": "CSE",
+        "semester": 3,
+        "cgpa": 8.7
+    },
+    {
+        "id": "25CS003",
+        "name": "Aarav Mehta",
+        "course": "CSE",
+        "semester": 3,
+        "cgpa": 7.9
+    },
+    {
+        "id": "25CS004",
+        "name": "Neha Patel",
+        "course": "CSE",
+        "semester": 3,
+        "cgpa": 9.1
+    },
+    {
+        "id": "25CS005",
+        "name": "Yash Desai",
+        "course": "IT",
+        "semester": 3,
+        "cgpa": 8.4
+    },
+    {
+        "id": "25CS006",
+        "name": "Kavya Shah",
+        "course": "IT",
+        "semester": 3,
+        "cgpa": 8.8
+    },
+    {
+        "id": "25CS007",
+        "name": "Dev Patel",
+        "course": "CSE",
+        "semester": 4,
+        "cgpa": 7.6
+    },
+    {
+        "id": "25CS008",
+        "name": "Riya Mehta",
+        "course": "CSE",
+        "semester": 4,
+        "cgpa": 9.0
+    },
+    {
+        "id": "25CS009",
+        "name": "Harsh Shah",
+        "course": "IT",
+        "semester": 4,
+        "cgpa": 8.1
+    },
+    {
+        "id": "25CS010",
+        "name": "Anjali Patel",
+        "course": "CSE",
+        "semester": 4,
+        "cgpa": 8.6
+    },
+    {
+        "id": "25CS011",
+        "name": "Krish Desai",
+        "course": "CSE",
+        "semester": 3,
+        "cgpa": 7.8
+    },
+    {
+        "id": "25CS012",
+        "name": "Mansi Shah",
+        "course": "IT",
+        "semester": 4,
+        "cgpa": 9.2
+    }
+]

@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - Student Portal</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <center>
+        <img
+            src="charusatlogo.jpg"
+            alt="CHARUSAT Logo"
+            width="700"
+            height="90"
+        >
+        <h1>Welcome to the Student Portal</h1>
+    </center>
+    <div class="sidebar">
+        <h1>
+            <center>Student Portal</center>
+        </h1>
+        <center>
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="login.html">Login</a>
+                <a href="dashboard-student.html">
+                    Student Dashboard
+                </a>
+                <a href="dashboard-admin.html">
+                    Admin Dashboard
+                </a>
+                <a href="profile.html">
+                    Profile
+                </a>
+                <a href="courses.html">
+                    Courses
+                </a>
+                <a href="registration.html">
+                    Registration
+                </a>
+                <a href="results.html">
+                    Grades
+                </a>
+                <a href="announcements.html">
+                    Announcements
+                </a>
+                <a href="feedback.html">
+                    Feedback
+                </a>
+                <a href="logout.html">
+                    Logout
+                </a>
+            </nav>
+        </center>
+    </div>
+    <main>
+        <center>
+            <h2>
+                External Data Explorer (Practical 6)
+            </h2>
+            <p class="description">
+                Dynamic rendering using Fetch API with
+                search, filter, sort, and pagination.
+            </p>
+        </center>
+        <div class="dataset-toolbar">
+            <strong>Select Dataset:</strong>
+            <button
+                type="button"
+                class="dataset-btn active"
+                data-source="events"
+            >
+                Campus Events
+            </button>
+            <button
+                type="button"
+                class="dataset-btn"
+                data-source="students"
+            >
+                Student Directory
+            </button>
+            <button
+                type="button"
+                class="dataset-btn"
+                data-source="faqs"
+            >
+                Portal FAQs
+            </button>
+        </div>
+        <div class="controls-toolbar">
+            <input
+                type="text"
+                id="searchInput"
+                placeholder="Search keywords..."
+                autocomplete="off"
+            >
+            <select id="categoryFilter">
+                <option value="ALL">
+                    All Categories
+                </option>
+            </select>
+            <select id="sortSelect">
+                <option value="default">
+                    Sort by: Default
+                </option>
+                <option value="asc">
+                    Name / Title (A - Z)
+                </option>
+                <option value="desc">
+                    Name / Title (Z - A)
+                </option>
+            </select>
+            <button
+                type="button"
+                id="resetBtn"
+                class="btn"
+            >
+                Reset
+            </button>
+        </div>
+        <div
+            id="statusMessage"
+            class="status-msg hidden"
+        ></div>
+        <div
+            id="dataContainer"
+            class="card-grid"
+        ></div>
+        <div class="pagination">
+            <button
+                type="button"
+                id="prevPageBtn"
+                class="btn"
+            >
+                &#10094; Previous
+            </button>
+            <span id="pageIndicator">
+                Page 1 of 1
+            </span>
+            <button
+                type="button"
+                id="nextPageBtn"
+                class="btn"
+            >
+                Next &#10095;
+            </button>
+        </div>
+    </main>
+    <footer>
+        <center>
+            <p>
+                &copy; 2026 CHARUSAT University.
+                All rights reserved.
+            </p>
+        </center>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

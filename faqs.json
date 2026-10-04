@@ -1,0 +1,107 @@
+[
+    {
+        "id": 1,
+        "title": "Tech Fest Hackathon 2026",
+        "category": "Technical",
+        "date": "2026-10-15",
+        "location": "Auditorium A"
+    },
+    {
+        "id": 2,
+        "title": "Web Dev Bootcamp",
+        "category": "Workshop",
+        "date": "2026-10-18",
+        "location": "Lab 101"
+    },
+    {
+        "id": 3,
+        "title": "Annual Sports Meet",
+        "category": "Sports",
+        "date": "2026-10-22",
+        "location": "Main Ground"
+    },
+    {
+        "id": 4,
+        "title": "AI & Robotics Summit",
+        "category": "Technical",
+        "date": "2026-10-25",
+        "location": "Seminar Hall"
+    },
+    {
+        "id": 5,
+        "title": "Cybersecurity Awareness",
+        "category": "Workshop",
+        "date": "2026-11-01",
+        "location": "Room 204"
+    },
+    {
+        "id": 6,
+        "title": "Inter-College Cricket Cup",
+        "category": "Sports",
+        "date": "2026-11-05",
+        "location": "Main Ground"
+    },
+    {
+        "id": 7,
+        "title": "Cloud Computing Hands-on",
+        "category": "Technical",
+        "date": "2026-11-10",
+        "location": "Lab 105"
+    },
+    {
+        "id": 8,
+        "title": "Resume Building Workshop",
+        "category": "Career",
+        "date": "2026-11-12",
+        "location": "Seminar Hall"
+    },
+    {
+        "id": 9,
+        "title": "Campus Cultural Night",
+        "category": "Cultural",
+        "date": "2026-11-15",
+        "location": "Open Amphitheater"
+    },
+    {
+        "id": 10,
+        "title": "Competitive Coding Sprint",
+        "category": "Technical",
+        "date": "2026-11-18",
+        "location": "Lab 102"
+    },
+    {
+        "id": 11,
+        "title": "Mock Placement Drive",
+        "category": "Career",
+        "date": "2026-11-20",
+        "location": "Placement Cell"
+    },
+    {
+        "id": 12,
+        "title": "Open Source Contribution Day",
+        "category": "Technical",
+        "date": "2026-11-22",
+        "location": "Lab 103"
+    },
+    {
+        "id": 13,
+        "title": "Badminton Tournament",
+        "category": "Sports",
+        "date": "2026-11-26",
+        "location": "Sports Complex"
+    },
+    {
+        "id": 14,
+        "title": "UI/UX Figma Design Sprint",
+        "category": "Workshop",
+        "date": "2026-11-28",
+        "location": "Lab 201"
+    },
+    {
+        "id": 15,
+        "title": "Alumni Networking Dinner",
+        "category": "Cultural",
+        "date": "2026-12-02",
+        "location": "Central Lawn"
+    }
+]
